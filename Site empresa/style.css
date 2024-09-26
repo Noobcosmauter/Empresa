@@ -1,0 +1,49 @@
+.menu-principal {
+    background-color: #31aee7; 
+    color: rgb(241, 241, 241); 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px 100px; 
+}
+.logo {
+    height: auto;
+    width: 75px;
+    border-radius: 10%;
+}
+.home {
+    margin-left: 50px;
+}
+.empresa {
+    margin-left: 60px;
+}
+.servicos{
+    margin-left: 70px;
+}
+.contato {
+    margin-left: 90px;
+}
+
+
+
+
+
+
+.Conteudo-Principal{
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0);
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px 100px; 
+}
+
+.imagem1 {
+    height: auto;
+    width: 75px;
+}
+
+.imagem2 {
+    height: auto;
+    width: 75px;
+}
