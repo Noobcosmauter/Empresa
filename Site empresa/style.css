@@ -1,46 +1,100 @@
-.menu-principal {
-    background-color: #31aee7; 
-    color: rgb(241, 241, 241); 
+:root{
+    --cor-principal:  #004b7e; 
+    --cor-secundaria: #ffffff;
+}
+
+
+/*----------------------------------Cabecalho---------------------------------*/
+#menu-principal {
+    background: linear-gradient(to right, hsl(189, 100%, 50%), rgb(0, 162, 190));
+    color: rgb(255, 255, 255); 
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
-    padding: 20px 100px; 
+    padding: 1px; 
+    font-size: 40px ;
+    transition: background-color 0.5s, color 0.5s; /* Transição suave */
+    
 }
 .logo {
     height: auto;
-    width: 75px;
-    border-radius: 10%;
+    width: 150px;
+    border-radius: 2%;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    position: absolute;
+    position: relative;
 }
 .home {
-    margin-left: 50px;
+    color: var(--cor-principal);
+    position: absolute; /* Não afeta o layout do item1 */
+    top: 100px; /* Distância do topo */
+    left: 56%; /* Distância da esquerda */
+    text-decoration: none;
 }
+.home:hover{
+    color: var(--cor-secundaria);
+}
+
 .empresa {
-    margin-left: 60px;
+    color: var(--cor-principal);
+    position: absolute; /* Não afeta o layout do item1 */
+    top: 100px; /* Distância do topo */
+    left: 64%; /* Distância da esquerda */
+    text-decoration: none;
+}
+.empresa:hover{
+    color: var(--cor-secundaria);
+
 }
 .servicos{
-    margin-left: 70px;
+    color: var(--cor-principal);
+    position: absolute; /* Não afeta o layout do item1 */
+    top: 100px; /* Distância do topo */
+    left: 75%; /* Distância da esquerda */
+    text-decoration: none;
+}
+.servicos:hover{
+    color: var(--cor-secundaria);
 }
 .contato {
-    margin-left: 90px;
+    color: var(--cor-principal);
+    position: absolute; /* Não afeta o layout do item1 */
+    top: 100px; /* Distância do topo */
+    left: 85.4%; /* Distância da esquerda */
+    text-decoration: none;
+}
+.contato:hover{
+    color: var(--cor-secundaria);
 }
 
 
 
 
 
-
-.Conteudo-Principal{
-    background-color: #ffffff; 
+/*------------------------------Conteudo Pricipal----------------------------*/
+#Conteudo-Principal{
+    background-color: #16c98d; 
     color: rgb(0, 0, 0);
     display: flex; 
     justify-content: space-between; 
-    align-items: center; 
-    padding: 20px 100px; 
+    padding: 100px 100px; 
 }
 
+.titulo-principal{
+    position: absolute;
+    margin-bottom: 70%;
+    text-align: left;
+    margin-left: 25%;
+}
+
+.texto-conteudo-principal{
+}
 .imagem1 {
     height: auto;
     width: 75px;
+    margin-left: 500px;
+    
 }
 
 .imagem2 {
