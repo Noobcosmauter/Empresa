@@ -3,12 +3,10 @@
     --cor-secundaria: #00ffaa;
 }
 
-
-/*----------------------------------Cabecalho---------------------------------*/
-
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  }
+/*----------------------------------Cabecalho---------------------------------*/
 
 #menu-principal {
     background: linear-gradient( hsl(244, 85%, 11%), rgb(1, 41, 100));
@@ -18,7 +16,7 @@ body {
     align-items: center; 
     padding: 1px; 
     font-size: 40px ;
-    transition: background-color 0.5s, color 0.5s; /* Transição suave */
+    transition: background-color 0.5s, color 0.5s; 
     
 }
 .logo {
@@ -27,14 +25,13 @@ body {
     border-radius: 2%;
     margin-left: 0px;
     margin-bottom: 0px;
-    position: absolute;
     position: relative;
 }
 .home {
     color: var(--cor-principal);
-    position: absolute; /* Não afeta o layout do item1 */
-    top: 100px; /* Distância do topo */
-    left: 56%; /* Distância da esquerda */
+    position: absolute; 
+    top: 100px; 
+    left: 56%; 
     text-decoration: none;
 }
 .home:hover{
@@ -43,30 +40,32 @@ body {
 
 .empresa {
     color: var(--cor-principal);
-    position: absolute; /* Não afeta o layout do item1 */
-    top: 100px; /* Distância do topo */
-    left: 64%; /* Distância da esquerda */
+    position: absolute; 
+    top: 100px; 
+    left: 64%; 
     text-decoration: none;
 }
 .empresa:hover{
     color: var(--cor-secundaria);
 
 }
+
 .servicos{
     color: var(--cor-principal);
-    position: absolute; /* Não afeta o layout do item1 */
-    top: 100px; /* Distância do topo */
-    left: 75%; /* Distância da esquerda */
+    position: absolute; 
+    top: 100px; 
+    left: 75%; 
     text-decoration: none;
 }
 .servicos:hover{
     color: var(--cor-secundaria);
 }
+
 .contato {
     color: var(--cor-principal);
-    position: absolute; /* Não afeta o layout do item1 */
-    top: 100px; /* Distância do topo */
-    left: 85.4%; /* Distância da esquerda */
+    position: absolute; 
+    top: 100px; 
+    left: 85.4%; 
     text-decoration: none;
 }
 .contato:hover{
@@ -75,12 +74,11 @@ body {
 
 
 
-
-
 /*------------------------------Conteudo Pricipal----------------------------*/
 
-
-
+#Conteudo-Principal{
+    padding: 4%;
+}
 
 .tprincipal{
     margin-left: 35%;
@@ -95,12 +93,15 @@ body {
     font-size: 170%;
 }
 .imagem1{
-    margin-left: 70%;
+    margin-left: 80%;
     margin-top: -210px;
     width: 25%;
 }
 
-/*-----------------------------Conteudo Secundario-------------------------------------------------*/
+/*-----------------------------Conteudo Secundario--------------------------------------*/
+
+
+
 .tsegundo{
     margin-left: 40%;
 }
@@ -158,4 +159,3 @@ body {
     margin-top: 10px;
     width: 10%;
 }
-
