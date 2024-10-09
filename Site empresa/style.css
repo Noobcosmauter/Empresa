@@ -1,6 +1,7 @@
 :root{
     --cor-principal:  #ffffff; 
-    --cor-secundaria: #00ffaa;
+    --cor-secundaria: #00ccff;
+
 }
 
 body {
@@ -9,14 +10,15 @@ body {
 /*----------------------------------Cabecalho---------------------------------*/
 
 #cabecalho {
-    background: linear-gradient( hsl(244, 85%, 11%), rgb(1, 41, 100));
+    background: linear-gradient( hsl(244, 92%, 24%), rgb(18, 106, 179));
     color: rgb(255, 255, 255); 
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
     padding: 2%; 
     font-size: 40px ;
-    transition: background-color 0.5s, color 0.5s; 
+    transition: background-color 0.5s, color 0.5s;
+    position: relative; 
     
 }
 .logo {
@@ -76,48 +78,69 @@ body {
 
 /*------------------------------Conteudo Das Pagínas----------------------------*/
 #Conteudo-Principal{
-    padding: 4%;
+    padding: 5%;
+ 
 }
 
+#Conteudo-secundario{
+    padding: 5%;
+    transition: background-color 0.5s, color 0.5s;
+    background: linear-gradient( hsl(244, 92%, 24%), rgb(18, 106, 179));
+    
+}
 
 
 /*-------CONTEUDO PRINCIPAL HOME---------*/
-
-.titulo-principal{
+.titulo-principal-home{
     margin-left: 35%;
+    margin-bottom: 7%;
 }
-.texto-curso{
-    margin-left: 3%;
-    column-count: 1;
+
+.texto-principal-home{
+    padding: 1% 2% 1% 2%;
+    background-color: #0bbada;
+    border-radius: 3%;
+    width: 45%;
+    height: 20%;
+    margin-top: 3%;
+    margin-left: 5%;
     font-size: 170%;
 }
-.aluno{
-    margin-left: 52px;
-    font-size: 170%;
-}
+
 .imagem1{
-    margin-left: 80%;
-    margin-top: -210px;
+    position: absolute;
+    margin-left: 58%;
+    margin-top: -15.6%;
     width: 25%;
 }
 
 /*-------CONTEUDO SECUNDARIO HOME------*/
-
-
-
-.tsegundo{
+.titulo-secundario-home{
     margin-left: 40%;
+    margin-bottom: 200px;
 }
-.aprimorar{
-    margin-top: 90px;
+.texto-secundario-home{
+    padding: 1% 2% 1% 2%;
+    background-color: #0bbada;
+    border-radius: 3%;
+    width: 45%;
+    height: 20%;
+    margin-top: -3%;
     margin-left: 40%;
-    font-size: 200%;
+    font-size: 170%;
 }
 .imagem2{
+    position: absolute;
     margin-left: 6%;
-    margin-top: -190px;
-    width: 25%;
+    margin-top: -18%;
+    width: 27%;
 }
+
+
+
+
+
+
 .seres{
     font-size: 170%;
     margin-left: 35%;
