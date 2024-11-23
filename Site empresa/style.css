@@ -6,7 +6,8 @@
 
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- }
+    background-color: #ffffff;
+}
 /*----------------------------------Cabecalho---------------------------------*/
 
 #cabecalho {
@@ -27,7 +28,6 @@ body {
     border-radius: 2%;
     margin-left: 0px;
     margin-bottom: 0px;
-    
 }
 .home {
     color: var(--cor-principal);
@@ -85,10 +85,10 @@ body {
 #Conteudo-secundario{
     padding: 5%;
     transition: background-color 0.5s, color 0.5s;
-    background: linear-gradient( hsl(0, 0%, 100%), rgb(255, 255, 255));
+    background-color: #000000;
+    color: white;
     
 }
-
 
 /*-------CONTEUDO PRINCIPAL HOME---------*/
 .titulo-principal-home{
@@ -120,13 +120,15 @@ body {
     margin-left: 40%;
     margin-bottom: 200px;
 }
+
 .texto-secundario-home{
     padding: 1% 2% 1% 2%;
     background-color: #0bbada;
+    position: relative;
     border-radius: 3%;
     width: 45%;
     height: 20%;
-    margin-top: -3%;
+    margin-top: -10%;
     margin-left: 40%;
     font-size: 170%;
 }
@@ -134,14 +136,9 @@ body {
     position: absolute;
     border: 5%;
     margin-left: 6%;
-    margin-top: -18%;
-    width: 25%;
+    margin-top: -14%;
+    width: 20%;
 }
-
-
-
-
-
 
 .seres{
     font-size: 170%;
@@ -153,12 +150,28 @@ body {
 
 
 /*----------------CONTEUDO PRINCIPAL EMPRESA-------------*/
+
+.conteiner_informacoes{
+  width: 60%; /* Largura do container */
+  max-width: 700px; /* Limita o tamanho máximo */
+  margin: 0 auto; /* Centraliza o container horizontalmente */
+  margin-top: 5%;
+  padding: 25px; /* Espaçamento interno */
+  background-color: #f4f4f4; /* Cor de fundo */
+  border: 1px solid #ddd; /* Borda sutil */
+  border-radius: 8px; /* Bordas arredondadas */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para dar destaque */
+  
+}
+
 .teprincipal{
-    margin-left: 40%;
+    margin-left: 15%;
+    
 }
 .tempresa{
-    margin-left: 35%;
+    margin-right: 0%;
 }
+
 .quadro{
     border: 2px solid #000;
     padding: 20px;
@@ -178,6 +191,25 @@ body {
     width: 10%;
 }
 
+
+
+/*------------CONTEUDO PRINCIPAL SERVIÇOS--------------*/
+
+.conteudo_servicos{
+    padding: 3%;
+}
+
+.conteiner_servicos{
+    width: 60%; /* Largura do container */
+    max-width: 700px; /* Limita o tamanho máximo */
+    margin: 0 auto; /* Centraliza o container horizontalmente */
+    margin-top: 0%;
+    padding: 25px; /* Espaçamento interno */
+    background-color: #f4f4f4; /* Cor de fundo */
+    border: 1px solid #ddd; /* Borda sutil */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para dar destaque */
+}
 
 
 
